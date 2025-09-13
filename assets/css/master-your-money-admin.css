@@ -1,0 +1,5 @@
+@media screen and (max-width: 780px) {
+    .chatgenie-custom-items {
+        display: block !important;
+    }
+}
