@@ -55,7 +55,7 @@
                     </td>
                 </tr>
             </tbody>
-        <table>
+              </table>
         <?php submit_button(); ?>
     </form>
 </div>

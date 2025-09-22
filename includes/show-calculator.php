@@ -3,6 +3,14 @@ $industryDefault = get_option('mym_balance_at_60_if_industry_default');
 $industryHighGrowth = get_option('mym_balance_at_60_if_industry_high_growth');
 $turbo30 = get_option('mym_balance_at_60_if_turbo_30');
 ?>
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
+$industryDefault = get_option('mym_balance_at_60_if_industry_default');
+$industryHighGrowth = get_option('mym_balance_at_60_if_industry_high_growth');
+$turbo30 = get_option('mym_balance_at_60_if_turbo_30');
+?>
 <div id="investment-calculator">
     <form id="investment-form">
         <label class="mym-form-label" for="starting-balance">Starting Super Balance:</label>

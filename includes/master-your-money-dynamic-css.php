@@ -2,6 +2,13 @@
 $mymClBtn = get_option('mym_calculate_button_color');
 $mymClBtnText = get_option('mym_calculate_button_text_color');
 $mymLableColor = get_option('mym_calculator_fields_label_color');
+
+if ( ! defined( 'ABSPATH' ) ) {
+     exit; // Exit if accessed directly
+}
+$mymClBtn = get_option('mym_calculate_button_color');
+$mymClBtnText = get_option('mym_calculate_button_text_color');
+$mymLableColor = get_option('mym_calculator_fields_label_color');
 echo 
 '<style id="master-your-money-plugin-style">
 .mym-button {

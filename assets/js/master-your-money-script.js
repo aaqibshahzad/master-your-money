@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
 
 let investmentChart;
 function calculateInvestment() {
-    jQuery('#show-diffrence').html('');
+    jQuery('#show-difference').html('');
     var startingBalance = parseFloat(jQuery('#starting-balance').val());
     var currentAge = parseFloat(jQuery('#age').val());
     var salary = parseFloat(jQuery('#salary').val());
@@ -113,7 +113,7 @@ function calculateFV(salary, retirementAge, startingBalance, currentAge) {
             let li = jQuery('<li></li>').text(value);
             ul.append(li);
         });
-        jQuery('#show-diffrence').append(ul);
+        jQuery('#show-difference').append(ul);
     })
     .catch((error) => console.error("Unable to fetch data:", error));
 
