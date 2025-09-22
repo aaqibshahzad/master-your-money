@@ -1,6 +1,6 @@
 # Master Your Money
 
-**Contributors:** yourusername  
+**Contributors:** aaqibshahzad  
 **Tags:** calculator, investment, superannuation  
 **Requires at least:** 5.0  
 **Tested up to:** 6.5  
