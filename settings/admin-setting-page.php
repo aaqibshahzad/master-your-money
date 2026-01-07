@@ -1,3 +1,9 @@
+<?php
+
+if ( ! defined( 'ABSPATH' ) ) {
+    die;
+}
+?>
 <div class="wrap">
     <h1>Master Your Money Settings</h1>
     <form method="post" action="options.php">
